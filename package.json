@@ -1,0 +1,18 @@
+{
+  "name": "mehon-design-engineering",
+  "version": "1.0.0",
+  "description": "Website for MEHON Design & Engineering, a machinery design and industrial engineering consultancy in Addis Ababa, Ethiopia.",
+  "private": true,
+  "scripts": {
+    "dev": "npx --yes serve . -l 8099",
+    "start": "python -m http.server 8099",
+    "check": "node tools/check-links.js"
+  },
+  "keywords": [
+    "mechanical-design",
+    "manufacturing",
+    "dfm",
+    "cad"
+  ],
+  "license": "UNLICENSED"
+}
